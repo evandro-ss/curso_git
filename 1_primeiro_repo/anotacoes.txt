@@ -1,0 +1,18 @@
+echo "# curso_git_1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin 
+git push -u origin main
+
+
+mudança teste
+
+git add "nome do arquivo ou localização" -> envia o arquivo para o projeto com o push
+git add. -> adiciona os arquivos de uma vez  
+
+git commit -> enviar arquivos de uma vez
+git commit -a -> enviar vários arquivos
+enviar uma mensagem descrevendo o envio com a flag -m 
+git commit a.txt -m "o arquivo con
