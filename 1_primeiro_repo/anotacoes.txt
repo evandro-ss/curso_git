@@ -13,6 +13,8 @@ git add "nome do arquivo ou localização" -> envia o arquivo para o projeto com
 git add. -> adiciona os arquivos de uma vez  
 
 git commit -> enviar arquivos de uma vez
-git commit -a -> enviar vários arquivos
+git commit -a -> enviar vários arquivos "all"
 enviar uma mensagem descrevendo o envio com a flag -m 
-git commit a.txt -m "o arquivo con
+git commit -a -m "mensagem"
+
+git pull -> sincronizar/atualizar os arquivos do remoto no local ( buscar por alterações)
